@@ -2,7 +2,7 @@ import { galleryItems } from './gallery-items.js';
 // Change code below this line
 
 ////////////////Варіант №1////////////////
-/* const gallery = document.querySelector('.gallery');
+const gallery = document.querySelector('.gallery');
 
 const render = galleryItems
   .map(
@@ -49,7 +49,7 @@ function onclick(e) {
       console.log(e.key);
     }
   }
-} */
+}
 
 ////////////////Варіант №2////////////////
 /* const gallery = document.querySelector('.gallery');
